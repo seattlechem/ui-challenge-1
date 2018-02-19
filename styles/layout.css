@@ -1,0 +1,5 @@
+/* border */
+div {
+  border: 2px solid black;
+  background-color: gray;
+}
