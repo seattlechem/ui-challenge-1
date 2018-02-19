@@ -1,9 +1,25 @@
 #a {
-  display: block;
-  
+  width: 480px;
+  height: 75px;
 }
 #b {
-  display: inline-block;
+  width: 480px;
+  height: 150px;
+}
+#cd div {
+  width: 480px;
+  height: 125px;
+}
+.quartet div {
+  width: 240px;
+  height: 250px;
+  float: left;
+}
+#i {
+  width: 480px;
+  height: 80px;
+  float: left;
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -11,56 +27,24 @@
     width: 960px;
     height: 100px;
   }
-  #section {
-    width: 960px;
-    height: 600px;
-  }
   #b {
-    display: inline-block;
     width: 200px;
     height: 600px;
-    vertical-align: top;
+    float: left;
   }
-  #subSection {
-    display: inline-block;
-    margin-left: -4px;
-    width: 756px;
-  }
-  #cd {
-    display: block;
-    margin-left: -4px;
-    margin-top: -4px;
-  }
-  #c{
-    width: 376px;
+  #cd div {
+    width: 380px;
     height: 200px;
     float: left;
   }
-  #d{
-    display: inline-block;
-    width: 372px;
-    height: 200px;
-  }
-  #efgh {
-    display: block;
-    margin-left: -4px;
-    margin-top: -4px;
-  }
-  #e {
+  .quartet div {
     width: 190px;
     height: 250px;
     float: left;
   }
-  #f, #g, #h {
-    display: inline-block;
-    width: 180px;
-    height: 250px;
-
-  }
   #i {
     width: 760px;
     height: 150px;
+    float: left;
   }
-
-  
 }

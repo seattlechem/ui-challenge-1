@@ -1,5 +1,32 @@
 /* border */
 div {
-  border: 2px solid black;
+  /* border: 1px solid black; */
   background-color: gray;
+}
+#a {
+  background-color: maroon;
+}
+#b {
+  background-color: brown;
+}
+#c {
+  background-color: olive;
+}
+#d {
+  background-color: orange;
+}
+#e {
+  background-color: yellow;
+}
+#f {
+  background-color: lime;
+}
+#g {
+  background-color: green;
+}
+#h {
+  background-color: cyan;
+}
+#i {
+  background-color: magenta;
 }
